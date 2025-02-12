@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ignitefleet",
-    "slug": "ignitefleet",
+    "slug": "Ignite Fleet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,11 @@
       "backgroundColor": "#202024"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grafsousa.ignitefleet"
     },
     "android": {
+      "package": "com.grafsousa.ignitefleet",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#202024"
